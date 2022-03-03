@@ -1,0 +1,46 @@
+[
+    {
+      "id": 1,
+      "model": "Future 2025",
+      "type": "moccamaster",
+      "accessories": ["cleaning brush", "coffee cup"],
+      "price": 99,
+      "extras": [{
+          "name": "coffee",
+          "price": 15
+        },
+        {
+          "name": "spoon",
+          "price": 10
+        },
+        {
+          "name": "color gold",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "model": "Beast II",
+      "type": "vacuum cleaner",
+      "accessories": ["bags", "filter set","delux brush set"],
+      "price": 99,
+      "extras": [{
+          "name": "manual",
+          "price": 15
+        },
+        {
+          "name": "warranty",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "model": "MaxEffect 2000",
+      "type": "radio",
+      "accessories": [],
+      "price": 29,
+      "extras": []
+    }
+  ]
