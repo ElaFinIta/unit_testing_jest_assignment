@@ -1,6 +1,10 @@
 pipeline {
-    agent any 
-
+    agent any
+    
+    tools {
+        nodejs "node"
+    }
+    
     stages {
         stage ("Install npm") {
             steps {
