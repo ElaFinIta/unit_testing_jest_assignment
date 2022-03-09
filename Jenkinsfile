@@ -2,7 +2,12 @@ pipeline {
     agent any 
 
     stages {
-
+        stage ("Install npm") {
+            steps {
+                sh "npm install"
+                echo 'Install node modules'
+            }
+        }
         stage ("Install jest") {
             steps {
                 sh "npm install jest"
